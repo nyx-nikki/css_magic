@@ -1,0 +1,381 @@
+
+/* NYX LABS .CSS layout template */
+
+
+/* General Settings */
+
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+    background-color: #ececec;
+}
+
+
+/* Layout & Containers */
+
+.nyxwrapper {
+    margin: 0.5rem auto;
+    max-width: 96%;
+    max-height: 75%;
+}
+.nyxcontainer {
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+    border-radius: 12px;
+    color: #000000;
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    font-size: 14px;
+    height: auto;
+    position: relative;
+
+}
+.nyxcontent {
+    margin: 0.5rem;
+    padding: 1%;
+}
+.nyxlogo {
+	padding: 0;
+	border: 0 none;
+}
+.nyxfooter {
+	padding: 0;
+	border: 0 none;
+}
+.nyxlogo img, .nyxfooter img {
+    width: 100%;
+	height: auto;
+	border: 0 none;
+}
+.nyxlogo a, .nyxlogo a:link, .nyxlogo a:visited, .nyxlogo a:active {
+    border: 0 none;
+}
+
+
+/* Typography */
+
+
+h2 {
+    font: bold 22px/24px "Megrim", Arial, Verdana, sans-serif;
+	color: #0A6673;
+	margin: 2% 0 2%;
+    text-align: center;
+}
+h3 {
+    font: bold 20px/22px "Roboto", Arial, Verdana, sans-serif;
+	color: #0A6673;
+    text-align: center;
+    margin: 0 0 2%;
+}
+h4 {
+    font: bold 18px/18px "Megrim", Arial, Verdana, sans-serif;
+	color: #0A6673;
+    margin: 2% 0 2%;
+}
+p {
+    font: 14px/14px "Roboto", Arial, Verdana, sans-serif;
+    padding-bottom: 2%;
+    text-align: left;
+}
+a, a:link, a:visited, a:active, a:hover {
+	font: bold 16px/16px "Roboto", Arial, Verdana, sans-serif;
+
+}
+a, a:link, a:visited, a:active {
+	color: darkmagenta;
+	text-decoration: none;
+}
+a:hover {
+	color: darkblue;
+	text-decoration: none;
+    padding: 0%;
+    opacity: 80%;
+}
+
+
+/* Lists */
+
+
+li {
+    margin-bottom: 0.2rem;
+    list-style-type: square;
+
+}
+ul {
+    font:normal 16px/16px "Roboto", Arial, Verdana, sans-serif;
+	margin: 0 0 20px 20px;
+}
+
+
+
+
+
+/* Columns & Rows */
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Header Bar Accent */
+
+.top-bar  {
+
+
+
+    border-bottom: 1px solid darkmagenta;
+    padding: 0px;
+
+
+}
+
+/* Footer Bar Accent */
+
+.callout.large.secondary  {
+
+    border-bottom: darkmagenta solid  2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Styx .CSS layout template */
+
+
+/* General Settings */
+
+
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ececec;
+}
+
+
+
+/* Layout & Containers */
+
+.styx-wrapper {
+    margin: 0.5rem auto;
+    max-width: 100%;
+
+    max-height: 1080px;
+}
+
+
+.styx-container {
+
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+    border-radius: 12px;
+    color: #000000;
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    font-size: 14px;
+    height: auto;
+
+    position: relative;
+    text-align: left;
+}
+
+
+.styx-content {
+    margin: 0 0.5rem;
+    padding: 1%;
+}
+
+
+
+.styx-row {
+
+
+}
+
+
+.styx-column {
+
+
+}
+
+
+.styx-left-column {
+
+
+}
+
+.styx-column {
+
+
+}
+
+
+
+
+
+
+.styxlogo {
+    padding: 0;
+    border: 0 none;
+}
+
+.styxfooter {
+    padding: 0;
+    border: 0 none;
+}
+
+.styxlogo img, .styxfooter img {
+    width: 100%;
+    height: auto;
+    border: 0 none;
+}
+
+.styxlogo a, .styxlogo a:link, .styxlogo a:visited, .styxlogo a:active {
+    border: 0 none;
+}
+
+
+/* Typography */
+
+
+h2 {
+    font: bold 20px/20px "Roboto", Arial, Verdana, sans-serif;
+    color: #0A6673;
+    text-align: center;
+}
+h3 {
+    font: bold 18px/18px "Megrim", Arial, Verdana, sans-serif;
+    color: #0A6673;
+    text-align: center;
+}
+h4 {
+    font: bold 16px/16px "Megrim", Arial, Verdana, sans-serif;
+    color: #0A6673;
+}
+
+h5 {
+    font: bold 16px/16px "Megrim", Arial, Verdana, sans-serif;
+    color: #0A6673;
+}
+
+
+p {
+    font: 14px/14px "Roboto", Arial, Verdana, sans-serif;
+    padding-bottom: 2%;
+    text-align: left;
+}
+a, a:link, a:visited, a:active, a:hover {
+    font: bold 14px/14px "Roboto", Arial, Verdana, sans-serif;
+
+}
+a, a:link, a:visited, a:active {
+    color: darkmagenta;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+    padding: 0%;
+}
+
+card:hover {
+    opacity: 0.9;
+}
+
+/* Lists */
+
+
+li {
+    text-align:left;
+    margin-bottom: 0.2rem;
+    list-style-type: square;
+    margin: auto;
+
+}
+ul {
+    font:normal 14px/14px "Roboto", Arial, Verdana, sans-serif;
+    margin: 0 0 20px 20px;
+}
+
+
+
+
+
+/* Columns & Rows */
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Header Bar Accent */
+
+.top-bar  {
+
+
+
+    border-bottom: 1px solid darkmagenta;
+    padding: 0px;
+
+
+}
+
+/* Footer Bar Accent */
+
+.callout.large.secondary  {
+
+    border-bottom: darkmagenta solid  2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
